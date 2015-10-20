@@ -1123,16 +1123,13 @@ function initialize(id) {
 
     var locations = [
         //point number 1
-        ['Madison Square Garden', '4 Pennsylvania Plaza, New York, NY'],
 
-        //point number 2
-        ['Best town ever', 'Santa Cruz', 36.986021, -122.02216399999998],
-
+        ['Indime Oy', 'Järvensivuntie 7, 33800 TAMPERE', 61.4917135,23.7828821,],
         //point number 3 
-        ['Located in the Midwestern United States', 'Kansas'],
+        //['Located in the Midwestern United States', 'Kansas'],
 
         //point number 4
-        ['I\'ll definitly be there one day', 'Chicago', 41.8781136, -87.62979819999998] 
+        //['I\'ll definitly be there one day', 'Chicago', 41.8781136, -87.62979819999998] 
     ];
 
 /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
@@ -1193,7 +1190,7 @@ var map = new google.maps.Map(document.getElementById(id), {
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#73AB7D"
+                "color": "#7DC24F"
             }
         ]
     },
